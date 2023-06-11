@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import Banner from './Banner';
+import { makeStyles } from '@material-ui/core';
+import CoinsTable from './CoinsTable';
+
+
+const useStyles=makeStyles({
+  backg:{
+    backgroundColor:"#1b263b",
+    minHeight:"100vh",
+    color:"white",
+
+  }
+})
 
 function App() {
+  const classes=useStyles();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div className={classes.backg}>
+    <Navbar/>
+    <Banner/>
+    <CoinsTable/>
+   
+    
+  </div>
+   
   );
 }
 
