@@ -1,4 +1,5 @@
 
+<img width="724" alt="Screenshot 2023-07-20 at 12 09 43 AM" src="https://github.com/Mridul-Verma12/CryptoCurrency-Tracker/assets/136008666/0189e27c-796d-4d03-8114-750f54950a69">
 
 
 
